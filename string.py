@@ -15,3 +15,14 @@ welc: 1
 elco: 2
 lcom: 1
 come: 2"""
+str=input()
+N=int(input())
+x=0
+for i in str:
+    y=str[x:N:]
+    if len(y)==4:
+        print(y)
+        x+=1
+        N+=1
+    else:
+        break
