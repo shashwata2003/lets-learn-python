@@ -21,7 +21,13 @@ x=0
 for i in str:
     y=str[x:N:]
     if len(y)==4:
-        print(y)
+        vowel=0
+        for a in y:
+            if (a=='a' or a=='e' or a=='i' or a=='o' or a=='u'):
+                vowel+=1
+            else:
+                continue
+        print(y,':',vowel)
         x+=1
         N+=1
     else:
