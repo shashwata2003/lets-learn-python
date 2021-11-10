@@ -4,21 +4,17 @@ Input
 Output
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44]"""
 n=int(input())
-a=list(range(1,n+1))
-#print(a)
-b=[]
-for i in a:
-    temp=i
-    rev=0
-    while i>0:
-        dig=i%10
-        print(dig)
-        rev=rev*10+dig
-        print(rev)
-        i=i//10
-    if (temp==rev):
-        b.append(temp)
-    else:
-        break
-print(b)
+L=list(range(1,n+1))
+Out=[]
 
+for i in L:
+    temp = i
+    b=i%10
+    c=i//10
+    rev=b*10+c
+    # print(rev)
+    if (temp==rev or c==0):
+        Out.append(temp)
+    else:
+        continue
+print(Out)
