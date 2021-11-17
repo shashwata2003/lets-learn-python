@@ -14,17 +14,20 @@ Example Output
 NO
 YES
 YES"""
-n=int(input())
-L=list(map(int,input().split()))[:n]
-for i in L:
-    if L[i]==1:
-        if L[i+6]==1:
-            print('NO')
+
+
+    
+# n=int(input())
+# L=list(map(int,input().split()))[:n]
+# for i in L:
+#         if L[i]==1:
+#             if L[i+6]==1:
+#                 print('NO')
             
-        else:
-            print('Yes')
-    else:
-        continue            
+#             else:
+#                 print('Yes')
+#         else:
+#             continue            
         
     
     
