@@ -9,7 +9,7 @@ Sample Input 0
 2
 arpit 100 75 40 56 53
 anushka 100 100 76 100 100
-Sample Output 0
+Sample Output 0 
 100.00 87.50 58.00 78.00 76.50"""
 n=int(input())
 d={}
