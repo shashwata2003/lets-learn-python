@@ -9,8 +9,15 @@ BRS1900 Kathir Chennai
 BRS1901 Kavi AP
 BCE1011 Mahitha UP
 BCE1111 Harish Punjab
-BCE1001 BRS1082 BRS1011 BRS1900
 
 Sample output
 BRS1082
 BRS1900"""
+n=int(input())
+d={}
+for i in range(n):
+    a=input().split()
+    d[a[0]]=a[1:]
+for j in d.keys():
+    if d[j][1]=='Chennai':
+        print(j)

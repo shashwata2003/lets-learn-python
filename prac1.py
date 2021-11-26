@@ -20,7 +20,14 @@ for i in range(n):
     a[5]=int(a[5])
     a[6]=int(a[6])
     d[a[0]]=a[1:]
-
+L=[]
 for j in d.keys():
     if d[j][2]>=90 or d[j][3]>=90:
-        print(j)
+        L.append(j)
+# print(L)
+a=sorted(L)
+# print(a)
+for x in a:
+    print(x)
+
+            

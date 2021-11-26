@@ -8,3 +8,19 @@ Sample Input
 
 Sample output
 1011 Ranjan 3360"""
+n=int(input())
+d={}
+for i in range(n):
+    a=input().split()
+    a[3]=int(a[3])
+    d[a[0]]=a[1:]
+
+leat=9999999
+for j in d.keys():
+    c=0.12*d[j][2]
+    if c<leat:
+        leat=c
+        e=j
+        temp=int(c)
+print(e,d[e][0],temp)
+    
