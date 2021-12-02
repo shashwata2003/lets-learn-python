@@ -1,6 +1,6 @@
 import re
 s=input()
-if re.match('[a-zA-Z0-9_/+/-]+@[a-zA-z]*/.com|in'):
+if re.match('([A-Za-z0-9]*@[A-Za-z]*\.com|in)$',s):
     print('yes')
 else:
     print('no')

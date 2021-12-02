@@ -41,5 +41,5 @@ for i in range(n):
     a=input()
     b=float(input())
 
-L.append([a,b])
+L.append(l1)
 print(L)
