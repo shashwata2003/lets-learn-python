@@ -12,6 +12,6 @@ if re.match('^sjhd','sjhd jdhsf'):
 #     print('dsffa')
 # # if re.match('^sjhd','sjhd jdhsf'):
 # #     print('dsffa')
-s=input()
-if re.match('[A-Za-z0-9]*',s):
+s=input().split('/')
+if re.match('[0-9]{2}[0-9]{2}[0-9]{4}',s):
     print('yes')
