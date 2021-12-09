@@ -1,0 +1,1 @@
+"""An ISBN number is legal if it consists of 10 digits and d_1 + 2d_2 + 3d_3 + ... + 10d_10 is a multiple of 11. The ISBN number 0-201-31452-5 is valid. 15 + 22 + 35 + 44 + 51 + 63 + 71 + 80 + 92 + 10*0 = 88 and 88 is a multiple of 11."""
